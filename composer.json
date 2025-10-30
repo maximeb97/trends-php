@@ -1,0 +1,32 @@
+{
+  "name": "maximeb97/trends-php",
+  "description": "Google Trends API for PHP",
+  "type": "library",
+  "keywords": [
+    "google-trends",
+    "api",
+    "php"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Maximeb97"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Maximeb97\\GoogleTrends\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Maximeb97\\GoogleTrends\\Tests\\": "tests/"
+    }
+  }
+}
